@@ -33,12 +33,31 @@
 }
 
 /* allow smooth scrolling  */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    font-size: 0.9rem;
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+/* generic container class   */
+.container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+  max-width: 1920px;
+}
+
+
+/* section class  */
+section{
+    padding: 10rem 0;
+    background-color: var(--color-light);
+    transition: var(--transition);
+}
+
+section:nth-child(even){
+    background-color: var(--color-white);
 }
