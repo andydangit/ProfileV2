@@ -1,9 +1,19 @@
-import './navbar.css'
+import "./navbar.css";
+
+import Logo from '../../assets/logo.png'
 
 function Navbar() {
   return (
-    <nav><h2>Navbar</h2></nav>
-  )
+    <nav>
+      <div className="container nav_Container">
+        <a href=""> 
+         <img src={Logo} alt="" /> 
+        </a>
+        <ul></ul>
+        <button></button>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
