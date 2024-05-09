@@ -1,6 +1,7 @@
 import "./header.css";
 
 import headerImag from "../../assets/headerPic.jpg";
+import data from "./data";
 
 function Header() {
   return (
@@ -18,9 +19,15 @@ function Header() {
           <a href="#portfolio"> My Project </a>
         </div>
         <div className="header_socials">
-          {
-            
-          }
+          {data.map((item) => (
+            <a
+              key={item.id}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            > {item.icon}
+            </a>
+          ))}
         </div>
       </div>
     </header>
