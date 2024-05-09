@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav>
       <div className="container nav_Container">
-        <a href="">
+        <a href="index.html" className='navLogo'>
           <img src={Logo} alt="Logo" />
         </a>
         <ul className="nav_menu">
