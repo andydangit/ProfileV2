@@ -7,8 +7,8 @@ import { RxColorWheel } from "react-icons/rx";
 function Navbar() {
   return (
     <nav>
-      <div className="container nav_Container">
-        <a href="index.html" className='navLogo'>
+      <div className="container nav_container">
+        <a href="index.html" className='nav_logo'>
           <img src={Logo} alt="Logo" />
         </a>
         <ul className="nav_menu">
@@ -18,7 +18,7 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <button id="themeIcon"><RxColorWheel /></button>
+        <button id="theme_icon"><RxColorWheel /></button>
       </div>
     </nav>
   );
