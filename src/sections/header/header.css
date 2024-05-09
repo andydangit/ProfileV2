@@ -1,6 +1,6 @@
 header {
   margin-top: 5rem;
-  height: calc(100vh - 12rem);
+  height: calc(80vh - 18rem);
   display: grid;
   place-items: center;
   background: var(--color-white);
