@@ -2,6 +2,7 @@ import "./navbar.css";
 
 import Logo from "../../assets/logo.png";
 import data from "./data";
+import { RxColorWheel } from "react-icons/rx";
 
 function Navbar() {
   return (
@@ -17,7 +18,7 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <button></button>
+        <button id="themeIcon"><RxColorWheel /></button>
       </div>
     </nav>
   );
