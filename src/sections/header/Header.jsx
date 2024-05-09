@@ -1,6 +1,6 @@
 import "./header.css";
 
-import headerImag from "../../assets/headerPic.jpg";
+import headerImage from "../../assets/headerPic.jpg";
 import data from "./data";
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
     <header id="header">
       <div className="container header_container">
         <div className="header_profile">
-          <img src={headerImag} alt=" Portrait Header" />
+          <img src={headerImage} alt=" Portrait Header" />
         </div>
         <h3> Andy Dang </h3>
         <p>
