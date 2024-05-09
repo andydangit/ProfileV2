@@ -6,17 +6,18 @@ import data from "./data";
 function Header() {
   return (
     <header id="header">
-      <div className="container header_container"></div>
-      <div className="header_profile">
-        <img src={headerImag} alt=" Portrait Header" />
+      <div className="container header_container">
+        <div className="header_profile">
+          <img src={headerImag} alt=" Portrait Header" />
+        </div>
         <h3> Andy Dang </h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-          molestias nam dolores. Facere.
+          molestias nam dolores. Facere. lorem
         </p>
         <div className="header_cta">
-          <a href="#contact"> Contact me</a>
-          <a href="#portfolio"> My Project </a>
+          <a href="#contact" className="btn primary"> Contact me</a>
+          <a href="#portfolio" className="btn light"> My Project </a>
         </div>
         <div className="header_socials">
           {data.map((item) => (
@@ -25,7 +26,8 @@ function Header() {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-            > {item.icon}
+            >
+              {item.icon}
             </a>
           ))}
         </div>
