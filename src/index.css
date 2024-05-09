@@ -113,7 +113,7 @@ h6 {
 }
 
 /* image style  */
-.img {
+img {
   display: block;
   width: 100%;
   object-fit: cover;
