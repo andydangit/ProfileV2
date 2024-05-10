@@ -17,9 +17,9 @@ const data = [
 
 {
     id: 2, 
-    category: 'frontend',
+    category: 'API',
     image: project2,
-    title: "ToDo List with Api Quote (Frontend)",
+    title: "ToDo List with Api Quote (API)",
     desc: "A to do list that auto generate motivational quotes using api",
     demo:'https://andydangit.github.io/Exercise_List/',
     github: 'https://github.com/andydangit/React-Quiz-App'

@@ -9,8 +9,8 @@ const Project = ({ project }) => {
       <h4>{project.title}</h4>
       <p>{project.desc} </p>
       <div className="portfolio_project-cta">
-        <a href={project.demo} className="btn sm" target="_blank" rel="noopner noreferrer">Demo</a>
-        <a href={project.github} className="btn sm primary" target="_blank" rel="noopner noreferrer">GitHub</a>
+        <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer">Demo</a>
+        <a href={project.github} className="btn sm primary" target="_blank" rel="noopener noreferrer">GitHub</a>
 
       </div>
     </Card>
