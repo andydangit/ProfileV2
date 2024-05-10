@@ -29,11 +29,12 @@ function About() {
                 }
             </div>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam asperiores sapiente quod quia tenetur culpa. Eligendi autem minus officia consequuntur!
+            My name is Andy Dang, and I bring over 12 years of extensive experience in Technical Support and System Management.Presently, I stand as a full stack developer with over 3 years of experience. My competencies span a wide array of technologies including HTML, CSS, JavaScript, React, ASP.NET, C#, Microsoft SQL, Figma, Photoshop and Azure.
             </p>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi, commodi ullam animi sapiente corrupti, laborum iure, necessitatibus quas nemo saepe ipsa possimus a tempore assumenda? Eveniet expedita nulla labore facilis quasi, a modi eligendi!
+            My academic journey led me to achieve a Bachelor's Degree in Management Information Systems from the University of Central Oklahoma. Complementing this, I pursued certifications in advanced computer language courses, fueling my passion for continuous learning and problem-solving.
             </p>
+            <p>Beyond the confines of my professional endeavors, I find solace in enriching my knowledge through podcasts that delve into leadership, business strategies, and cutting-edge technology. Additionally, I prioritize maintaining a balanced lifestyle by indulging in activities like running, savoring cinematic experiences, and cherishing moments with loved ones</p>
             <a href={Resume} download className='btn primary'>Download CV <HiDownload/></a>
         </div>
     </div>
