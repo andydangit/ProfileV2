@@ -1,8 +1,10 @@
 import "./about.css";
 
-import AboutImage from '../../assets/tree.png'
-import Resume from '../../assets/Resume2024.pdf'
-import {HiDownload} from 'react-icons/hi'
+import AboutImage from "../../assets/tree.png";
+import Resume from "../../assets/Resume2024.pdf";
+import { HiDownload } from "react-icons/hi";
+import Card from "../../components/Card";
+import data from "../about/data";
 
 function About() {
   return (
@@ -10,18 +12,37 @@ function About() {
       <div className="container about_container">
         <div className="about_left">
           <div className="about_portrait">
-            <img src={AboutImage} alt="About pic" /> 
+            <img src={AboutImage} alt="About pic" />
           </div>
         </div>
         <div className="about_right"></div>
         <h2>About Me</h2>
-        <div className="about_cards"></div>
-        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quis accusantium architecto et asperiores, voluptas nam in. Fugit explicabo fuga neque. Laboriosam, inventore. Dicta ipsum nam dolorum quaerat. Ratione, facilis.
-          </p> 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis harum a beatae! Beatae sit ut voluptate eveniet dolorum officiis aliquam molestias assumenda quia hic distinctio officia natus repellat reiciendis possimus dicta, minus alias.
-          </p>
-          <a href={Resume} download className="btn primary">Download CV<HiDownload /></a>
+        <div className="about_cards">
+          {data.map((item) => (
+            <Card key={item.id} className="about_card">
+              <span className="about_card-icon">{item.icon}</span>
+              <h5>{item.title}</h5>
+              <small>{item.desc}</small>
+            </Card>
+          ))}
+        </div>
+        <p>
+          {" "}
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quis
+          accusantium architecto et asperiores, voluptas nam in. Fugit explicabo
+          fuga neque. Laboriosam, inventore. Dicta ipsum nam dolorum quaerat.
+          Ratione, facilis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          corporis harum a beatae! Beatae sit ut voluptate eveniet dolorum
+          officiis aliquam molestias assumenda quia hic distinctio officia natus
+          repellat reiciendis possimus dicta, minus alias.
+        </p>
+        <a href={Resume} download className="btn primary">
+          Download CV
+          <HiDownload />
+        </a>
       </div>
     </section>
   );
