@@ -1,6 +1,6 @@
 import "./navbar.css";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 import data from "./data";
 import { RxColorWheel } from "react-icons/rx";
 
