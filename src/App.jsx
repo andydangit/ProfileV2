@@ -1,7 +1,7 @@
 import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
-import Services from "./sections/services/Services";
+import Certifications from "./sections/certifications/Certifications";
 import Portfolio from "./sections/portfolio/Portfolio";
 import Testimonials from "./sections/testimonials/Testimonials";
 import Faqs from "./sections/faq/Faqs";
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
-      <Services />
+      <Certifications />
       <Portfolio />
       <Testimonials />
       <Faqs />

@@ -1,0 +1,51 @@
+.cert_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+}
+
+.card.cert {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.cert_icon {
+    background: var(--color-primary);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.cert:hover .cert_icon {
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+
+.cert h4 {
+    margin-bottom: 0.7rem;
+}
+
+
+
+/* media queries for tablet */
+@media screen and (max-width: 1024px) {
+    .cert_container {
+        gap: 1.5rem;
+    }
+}
+
+
+/* media queries for phone */
+@media screen and (max-width: 600px) {
+    .cert_container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .card.cert {
+        gap: 1.2rem;
+    }
+}
