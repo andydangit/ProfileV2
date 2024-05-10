@@ -2,6 +2,7 @@ import project1 from "../../assets/project_1.png"
 import project2 from "../../assets/project_2.png"
 import project3 from "../../assets/project_3.PNG"
 import project4 from "../../assets/project_4.PNG"
+import project5 from "../../assets/project_5.png"
 
 
 const data = [
@@ -10,7 +11,7 @@ const data = [
     category: 'frontend',
     image: project1,
     title: "Cafe Dao (Frontend)",
-    desc: "Asian sandwich shop that sell vietnamese unique sandwich and coffee",
+    desc: "Sandwich shop that sell vietnamese unique sandwich and coffee",
     demo:'https://cafe-dao.netlify.app/',
     github: 'https://github.com/andydangit/CafeDao'
 },
@@ -30,7 +31,7 @@ const data = [
     category: 'frontend',
     image: project3,
     title: "Mandalorian Fan site (Frontend)",
-    desc: "unofficial fan site ",
+    desc: "unofficial fan site for the Disney Mandalorian tv show ",
     demo:'https://mandalorian-fansite.netlify.app/home',
     github: 'https://github.com/andydangit/mandalorianfansite'
 },
@@ -43,6 +44,16 @@ const data = [
     desc: "Vacation spot ",
     demo:'https://my-vacation-spots.netlify.app/',
     github: 'https://github.com/andydangit/Vacation-Travel-Spot'
+},
+
+{
+    id: 5, 
+    category: 'In progress',
+    image: project5,
+    title: "Social media (In Progress)",
+    desc: "In progress",
+    demo:'https://adsocialmedia.netlify.app/',
+    github: 'https://github.com/andydangit/SocialMedia'
 }
 
 ]
