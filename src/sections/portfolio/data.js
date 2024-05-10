@@ -1,7 +1,7 @@
 import project1 from "../../assets/project_1.png"
 import project2 from "../../assets/project_2.png"
-import project3 from "../../assets/project_3.png"
-import project4 from "../../assets/project_4.png"
+import project3 from "../../assets/project_3.PNG"
+import project4 from "../../assets/project_4.PNG"
 
 
 const data = [
