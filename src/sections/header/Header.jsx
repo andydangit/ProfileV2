@@ -14,8 +14,8 @@ function Header() {
         </div>
         <h3> Andy Dang </h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-          molestias nam dolores. Facere. lorem
+          
+I'm a full stack developer proficient in HTML, CSS, JavaScript, and React for front-end, and ASP.NET, C#, and Microsoft SQL for back-end. My skills span the entire development process, from creating captivating user interfaces to building robust server-side solutions and managing databases efficiently.
         </p>
         <div className="header_cta">
           <a href="#contact" className="btn primary"> Contact me</a>
