@@ -1,8 +1,14 @@
-import React from 'react'
+import Project from './Project'
 
-function Projects() {
+function Projects({projects}) {
   return (
-    <div>Projects</div>
+    <div className="portfolio_projects">
+      {
+        projects.map(project =>(
+          <Project key={project.id} project={project}/>
+        ))
+      }
+    </div>
   )
 }
 
