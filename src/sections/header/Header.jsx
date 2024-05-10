@@ -1,6 +1,8 @@
 import "./header.css";
 
-import headerImage from "../../assets/headerPic.jpg";
+// import headerImage from "../../assets/headerPic.jpg";
+import headerImage from "../../assets/Stair.png";
+
 import data from "./data";
 
 function Header() {
