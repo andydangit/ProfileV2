@@ -40,6 +40,7 @@ cursor: pointer;
 /* hid navbar on tablets and phones view */
 @media screen and (max-width: 1024px) {
     .nav_menu{
-        display: none;
+        /* display: none; */
+        font-size: small;
     }
 }
