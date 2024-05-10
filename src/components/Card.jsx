@@ -1,9 +1,11 @@
-import './card.css'
+import "./card.css";
 
-const Card = () => {
+const Card = ({children, className, onClick}) => {
   return (
-    <div>Card</div>
-  )
-}
+    <article className={`card ${className}`} onClick={onClick}>
+      {children}
+    </article>
+  );
+};
 
-export default Card
+export default Card;
