@@ -3,7 +3,6 @@ import Header from "./sections/header/Header";
 import About from "./sections/about/About";
 import Certifications from "./sections/certifications/Certifications";
 import Portfolio from "./sections/portfolio/Portfolio";
-import Testimonials from "./sections/testimonials/Testimonials";
 import Faqs from "./sections/faq/Faqs";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
@@ -17,8 +16,7 @@ const App = () => {
       <About />
       <Certifications />
       <Portfolio />
-      <Testimonials />
-      <Faqs />
+      {/* <Faqs /> */}
       <Contact />
       <Footer />
       <FloatingNav />
